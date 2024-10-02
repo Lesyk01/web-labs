@@ -5,5 +5,5 @@ lab-01:
 lab-02:
           https://lesyk01.github.io/web-labs/lab_02/apples/
 
-lab-03:
+lab-04:
           https://lesyk01.github.io/web-labs/lab_04/museum/
