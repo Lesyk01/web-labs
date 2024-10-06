@@ -7,3 +7,4 @@ lab-02:
 
 lab-04:
           https://lesyk01.github.io/web-labs/lab_04/museum/
+lab-05 https://lesyk01.github.io/web-labs/lab_05/dark.html
