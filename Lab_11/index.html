@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tanky</title>
+</head>
+<body>
+    <h1>Most Popular Tanks</h1>
+    <div class="all">
+        <button class="button" id="object140">
+            <img src="img/IMAGE 2024-10-28 10:46:15.jpg" alt="OBJECT140">
+            <h2>OBJECT 140</h2>
+        </button>
+        <button class="button" id="e100">
+            <img src="img/IMAGE 2024-10-28 10:46:20.jpg" alt="E100">
+            <h2>E 100</h2>
+        </button>
+        <button class="button" id="maus">
+            <img src="img/IMAGE 2024-10-28 10:46:18.jpg" alt="MAUS">
+            <h2>MAUS</h2>
+        </button>
+        <button class="button" id="t110e5">
+            <img src="img/IMAGE 2024-10-28 10:46:28.jpg" alt="T110E5">
+            <h2>T110E5</h2>
+        </button>
+        <button class="button" id="t57heavy">
+            <img src="img/IMAGE 2024-10-28 10:46:26.jpg" alt="T57 HEAVY TANK">
+            <h2>T57 HEAVY TANK</h2>
+        </button>
+        <button class="button" id="fv215b">
+            <img src="img/IMAGE 2024-10-28 10:46:24.jpg" alt="FV215B">
+            <h2>FV215B</h2>
+        </button>
+        <button class="button" id="conqueror">
+            <img src="img/IMAGE 2024-10-28 10:46:12.jpg" alt="CONQUEROR">
+            <h2>CONQUEROR</h2>
+        </button>
+    </div>
+
+    <div id="tankModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <div class="tank-info">
+                <h2 id="tankName">Tank Name (Level)</h2>
+                <div class="tank-preview">
+                    <img id="tankImage" src="" alt="Tank Image">
+                    <table class="tank-characteristics">
+                        <tr><td>Damage</td><td id="tankDamage"></td></tr>
+                        <tr><td>Breoning</td><td id="tankBreoning"></td></tr>
+                        <tr><td>Attack Speed</td><td id="tankAttackSpeed"></td></tr>
+                        <tr><td>Time of Targeting</td><td id="tankTimeOfTargeting"></td></tr>
+                        <tr><td>Ammunition</td><td id="tankAmmunition"></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
