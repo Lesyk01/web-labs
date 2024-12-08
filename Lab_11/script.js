@@ -42,12 +42,12 @@ const jobs = [
 
 let selectedTags = [];
 
-// Render jobs dynamically
+
 function renderJobs() {
     jobList.innerHTML = "";
 
     jobs.forEach(job => {
-        // Check if the job matches selected tags
+
         if (selectedTags.length > 0 && !selectedTags.every(tag => job.tags.includes(tag))) {
             return;
         }
