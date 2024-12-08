@@ -20,7 +20,7 @@ lab-08: https://lesyk01.github.io/web-labs/Lab_08/index.html
 
 lab-09: https://lesyk01.github.io/web-labs/Lab_09/index.html
 
-lab-10: https://lesyk01.github.io/web-labs/Lab_10/index.html
+lab-10:https://lesyk01.github.io/web-labs/Lab_10/index.html
 
 lab-11: https://lesyk01.github.io/web-labs/Lab_11/index.html
 
