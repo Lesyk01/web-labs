@@ -37,7 +37,7 @@ const weapons = {
 };
 
 function show(key) {
-    window.location.href = `index2.html?weapon=${key}`;
+    window.location.href = `gun.html?weapon=${key}`;
 }
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
